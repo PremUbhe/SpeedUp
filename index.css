@@ -139,19 +139,23 @@
 #fifth-page .heading img{
     margin-left: 20px;
 }
+#fifth-page .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+}
 #fifth-page .card{
     display: flex;
     flex-direction: row;
     width: 400px;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     border-radius: 25px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
 }
 #fifth-page .info{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin: 0px 20px;
 }
 #fifth-page .info p{
     font-family: gellix-semibold,sans-serif;
@@ -167,4 +171,146 @@
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 500;
+}
+#fifth-page .button{
+    display: flex;
+    margin: 1rem 0px;
+    justify-content: center;
+}
+/* sixth page */
+#sixth-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+#sixth-page .heading{
+    display: flex;
+    margin-left: 50px;
+}
+#carouselExampleIndicators{
+    background-color: peachpuff;
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+#sixth-page .cards{
+    display: flex;
+    margin: 10px 100px;
+}
+#sixth-page .card{
+    margin: 0px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+#sixth-page .card-text{
+    font-family: gellix-semibold,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+#sixth-page .gray{
+    color: gray;
+    font-family: gellix-semibold,sans-serif;
+    font-size: 16px;
+}
+#sixth-page .button{
+    display: flex;
+    margin: 1rem 0px;
+    justify-content: center;
+}
+/* seventh page */
+#seventh-page{
+    display: flex;
+    margin-top: 150px;
+}
+#seventh-page .right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: peachpuff;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+    font-family: gellix-semibold,sans-serif;
+
+}
+#seventh-page button{
+    padding: 10px 40px;
+    font-weight: 600;
+    margin: 0 5px;
+
+}
+#seventh-page .alert{
+    color: #ff0000;
+    margin: 0.5rem 0 0 1rem;
+    font-weight: 600;
+}
+/* eight-page */
+#eight-page{
+    position: relative;
+    margin-top: 150px;
+    /* background-image: url("https://www.almabetter.com/_next/image?url=%2Fassets%2Fimages%2FCommunity.png&w=1920&q=75"); */
+}
+#eight-page .middle{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    top: 200px;
+    left: 400px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+/* nine-page */
+#nine-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    background-color: rgb(217, 222, 246);
+    padding: 70px 0px;
+}
+#nine-page p{
+    font-family: gellix-semibold,sans-serif;
+    color: gray;
+}
+#nine-page span{
+    color: black;
+    font-family: gellix-semibold,sans-serif;
+    line-height: 2rem;
+    font-weight: 700;
+}
+#nine-page .container{
+    display: flex;
+    margin: 1rem 0px;
+}
+#nine-page .red{
+    color: #ff0000;
+}
+/* ten-page */
+#ten-page{
+    display: flex;
+    margin-top: 150px;
+    
+}
+/* eleven-page */
+#eleven-page{
+    display: grid;
+    grid-template-columns: 20rem auto auto auto auto;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    padding: 2rem 4rem;
+}
+#eleven-page ul{
+    padding: 0;
+}
+#eleven-page li{
+    list-style-type: none;
+    margin: 1rem 0px;
+    color: gray;
+}
+#eleven-page li h6{
+    color: #ff0000;
+}
+#eleven-page p{
+    color: white;
 }
