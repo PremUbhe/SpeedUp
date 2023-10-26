@@ -173,9 +173,12 @@
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
-
+#forth-page .cards .card p {
+  width: 100%;
+  height: 200px;
+}
 #forth-page .cards button {
-  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 #forth-page h2 {
